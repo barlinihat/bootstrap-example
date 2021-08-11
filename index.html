@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	  <title>BARLİN</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+	
+  <body>
+	  
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!-- navbar-expand-md sayfa boyutuna göre listenin çıkmasına yarar.  navbar-dark font yapısını sağlar. bg-dark en arka daki zemin rengidir. fixed-top Navbar menüsünün üstte yer almasını sağlar. -->
+        <div class ="container"> <!-- -->
+			
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nvbCollapse"> <!-- (class="navbar-toggler") sayfayı küçülttüğümüzde sayfanın sol üstünde menünün çıkmasına yarıyor.alt alta 3 çizgi. data-target="#nvbCollapse" sayfayı küçülttüğümüzde çıkan menüye tıklandığında # işareti ile verilen adrese gitmeyi sağlar. -->
+            <span class="navbar-toggler-icon"></span> <!-- sayfayı küçülttüğümüzde çıkan 3 çizginin menü şeklinde açılması içindir. -->
+            </button>
+			
+            <a href ="#" class="navbar-brand">BarlinFitNess</a> <!-- logomuzun yada sayfamızın isminin bulunduğu alandır.  -->
+			<div class="collapse navbar-collapse" id="nvbCollapse">
+				
+			<ul class="navbar-nav ml-auto"><!-- navbaar menüsünün sol boşluğunu otomatik ayarlayıp sağa yanaştırır. -->
+				<li class="nav-item">
+					<a class="nav-link" href="#">Başlangıç</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Hakkımızda</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Projelerimiz</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">İletişim</a>
+				</li>
+				</ul>
+				
+			</div>
+          </div>
+      </nav>
+	  <!-- İlk kısım (Header Section) -->
+	  
+	  <header id="headerSection"> <!-- Kısmen bootstrap'ın hazır sınıflarını kullandım burada. -->
+	  <div class="overlay">
+		  <div class="container">
+			  <div class="row text-center">
+				  <div class="col"> 
+				  <h1 style="color: black; margin-top: 200px;" class="display-3"> <span>Barlin</span> FitNess Center</h1> <!-- class="display-3" sınıfı bootsrap'a özgü olup yazı boyutunu ayarlar. -->
+					  <p class="text-muted"><em>Acı geçicidir. Vazgeçmek ise sonsuza dek sürer. No pain, no gain! (Acı yoksa, kazanç yok)</em></p> <!-- Barlin yazsınını farklı yazmak için span etiketleri arasına yazdım.class="text-muted"> sınıfı ile yazının biraz mat görünüme sahip olması için ekledim.<em></em> etiketleri ile yazının italik olmasını sağladım. -->
+					  <button type="button">Başla!</button>
+					  
+				 </div>
+			  </div>
+		  	</div>
+		  </div>
+	  
+	  
+	  
+	  
+	  </header>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.js"></script> 
+    <script src="js/popper.min.js"></script>
+	 <script type="text/javascript" src="js/bootstrap.js"></script> 
+  </body>
+</html>
+
+<!-- Kütüphaneler CDN linkeri olmaksızın local'de kullanılacak.-->
+<!-- Kütüphaneleri CDN linkleri olarak kullanmanın avantajlarının farkındayım ama boot strap özelliklerine direkt olarak müdahale edebilmek ve kendime göre düzenleyebilmek için kütüphaneleri local'de kullanmayı öngördüm. -->
